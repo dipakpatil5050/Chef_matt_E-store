@@ -1,9 +1,14 @@
-# React + Vite
+# React + Vite + Tailwind css
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 # Chef_matt_E-store
+
+![image](https://github.com/user-attachments/assets/c82f07e6-d831-44a5-8ee9-6a37ded0bbff)
+
+![image](https://github.com/user-attachments/assets/8a5ebdc2-b660-4599-b191-2ea38e008e51)
+
+![image](https://github.com/user-attachments/assets/edd46a79-0488-4778-ab8d-7549eb4dd9fd)
+
+
+![image](https://github.com/user-attachments/assets/3248b062-a787-4090-99e0-3e77d6d9b421)
+
+
