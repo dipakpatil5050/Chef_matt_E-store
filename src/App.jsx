@@ -5,6 +5,7 @@ import Footer from "./componenets/Footer";
 import Sidebar from "./componenets/Sidebar";
 import ProductsPage from "./componenets/ProductsPage";
 import OfferPage from "./componenets/OfferPage";
+import OffersCarousel from "./componenets/OffersCarousel";
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
       <Sidebar />
       <HomePage />
       <ProductsPage />
-      <OfferPage />
+      {/* <OfferPage /> */}
+      <OffersCarousel />
       <Footer />
     </>
   );

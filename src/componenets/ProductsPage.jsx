@@ -7,6 +7,7 @@ import product4 from "../assets/images/Ellipse8.png";
 import aero from "../assets/images/VectorAero.png";
 import aeroRight from "../assets/images/Vectoraeroright.png";
 import Item from "./Item";
+import ItemCarousel from "./ItemCarousel";
 
 function ProductsPage() {
   return (
@@ -30,35 +31,8 @@ function ProductsPage() {
           <img src={aero} alt="aero" />
           <img src={aero} alt="aero" />
         </div>
-        {/* <div className="flex absolute">
-          <img src={aeroRight} alt="aero" />
-          <img src={aeroRight} alt="aero" />
-        </div> */}
         <div className="w-[1232px] top-[332px] flex justify-center items-center ">
-          <Item
-            productImg={product1}
-            Name="CINNAMON HONEY"
-            oldPrice="$12.00"
-            newPrice=" $9.00"
-          />
-          <Item
-            productImg={product2}
-            Name="COCONUT OIL"
-            oldPrice="$20.00"
-            newPrice=" $15.00"
-          />
-          <Item
-            productImg={product3}
-            Name="MANGO HONEY"
-            oldPrice="$9.00"
-            newPrice=" $6.00"
-          />
-          <Item
-            productImg={product4}
-            Name="HONEY HABANERO"
-            oldPrice="$12.00"
-            newPrice=" $9.00"
-          />
+          <ItemCarousel />
         </div>
         <div className="relative w-full bottom-[215px] flex justify-end items-center -ml-40 ">
           <img src={aeroRight} alt="aero" />

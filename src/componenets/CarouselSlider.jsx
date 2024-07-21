@@ -6,9 +6,9 @@ import NamePlate from "./NamePlate";
 
 function CarouselSlider() {
   return (
-    <div className="">
+    <div className="w-full">
       <Swiper
-        className="ml-[150px]"
+        className=""
         spaceBetween={50}
         onNavigationShow={true}
         onPaginationRender={true}

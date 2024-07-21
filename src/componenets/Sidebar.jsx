@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import verticalLogo from "../assets/images/Chef-Matt-rev-white-high-res-1-2048x1365_1.png";
 import logo from "../assets/images/Chef-Matt-rev-white-high-res-1-2048x1365_2.png";
+import Bag from "../assets/images/Bag.png";
+import Fav from "../assets/images/Fav.png";
 import { FaBars } from "react-icons/fa";
 import { IoClose } from "react-icons/io5";
 
@@ -62,6 +64,30 @@ function Sidebar() {
           <div className="mt-36 top-[673px] -left-72 w-[447px] h-[299px]">
             <img className=" " src={verticalLogo} alt="logo" />
           </div>
+        )}
+
+        {isExpanded && (
+          <>
+            <div className="w-full justify-center items-center ml-8 mt-40">
+              <h1 className="absolute h-[24px] font-[400] text-[16px]">
+                TEXT SUPPORT 24/7
+                <span className="text-[#D29A5A] ml-1 underline">
+                  {" "}
+                  070-7782-9137
+                </span>
+              </h1>
+            </div>
+            <div className="w-[340px] flex gap-10 mt-52 border-t-2 p-2">
+              <div className="flex gap-2 ml-4">
+                <img src={Bag} alt="" />
+                <h1 className="text-[22px]">CART</h1>
+              </div>
+              <div className="flex gap-2 ml-4">
+                <img src={Fav} alt="" />
+                <h1 className="text-[22px]">WISHLIST</h1>
+              </div>
+            </div>
+          </>
         )}
       </div>
     </>
