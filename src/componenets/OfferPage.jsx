@@ -15,7 +15,7 @@ function OfferPage() {
       <img className="w-full" src={offer} alt="offer page" />
 
       <div
-        className="flex justify-center items-center
+        className="flex justify-center items-center  
       "
       >
         <div className="absolute z-40 border-[3px] mb-64 mr-26 -ml-26 border-[#161111] w-[359px] h-[76px] flex justify-center items-center cursor-pointer">

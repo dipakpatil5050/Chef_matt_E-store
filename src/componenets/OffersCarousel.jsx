@@ -8,7 +8,7 @@ import OfferPage from "./OfferPage";
 
 function OffersCarousel() {
   return (
-    <div className="w-full ">
+    <div className="w-full">
       <Swiper
         className=""
         spaceBetween={-50}
