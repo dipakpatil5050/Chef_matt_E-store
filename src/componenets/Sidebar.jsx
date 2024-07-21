@@ -18,8 +18,6 @@ function Sidebar() {
         } bg-[#130F0CCC] text-white transition-all duration-100`}
       >
         <div className="flex items-center justify-between p-4 pl-14">
-          {/* <div className="text-2xl font-bold">Logo</div> */}
-
           {isExpanded ? (
             <div>
               <IoClose

@@ -8,7 +8,7 @@ function CarouselSlider() {
   return (
     <div className="">
       <Swiper
-        className=""
+        className="ml-[150px]"
         spaceBetween={50}
         onNavigationShow={true}
         onPaginationRender={true}
